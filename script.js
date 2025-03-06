@@ -97,11 +97,11 @@ function displayData(userData) {
     "Komisi Generasi 9",
     "Komisi Generasi 10",
     "Jumlah Seluruh Komisi",
-    "Bonus Spesial 1",
-    "Bonus Spesial 2",
-    "Bonus Spesial 3",
-    "Bonus Spesial 4",
-    "Bonus Spesial 5",
+    "Bonus Spesial1",
+    "Bonus Spesial2",
+    "Bonus Spesial3",
+    "Bonus Spesial4",
+    "Bonus Spesial5",
     "Jumlah Komisi+Bonus",
     "80% Komisi+Bonus Rp",
     "20% Komisi+Bonus UD (Uang Digital)",
@@ -114,7 +114,6 @@ function displayData(userData) {
     "Bonus Tambahan 1",
     "Bonus Tambahan 2",
     "Bonus Tambahan 3",
-    "Password"
   ];
 
   // Daftar field yang akan diformat sebagai mata uang (jika nilainya berupa angka)
