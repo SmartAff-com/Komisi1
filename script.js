@@ -97,7 +97,7 @@ function displayData(userData) {
     "Komisi Generasi 9",
     "Komisi Generasi 10",
     "Jumlah Seluruh Komisi",
-    "Bonus-Spesial 1",
+    "Bonus Spesial 1",
     "Bonus Spesial 2",
     "Bonus Spesial 3",
     "Bonus Spesial 4",
