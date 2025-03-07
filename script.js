@@ -98,7 +98,7 @@ function displayData(userData) {
     "Komisi Generasi 10",
     "Jumlah Seluruh Komisi",
     "Bonus Spesial 1",
-    "Bonus Spesial 2",
+    "•Bonus Spesial 2",
     "Bonus Spesial 3",
     "Bonus Spesial 4",
     "Bonus Spesial 5",
@@ -130,7 +130,7 @@ function displayData(userData) {
     "Komisi Generasi 10",
     "Jumlah Seluruh Komisi",
     "Bonus Spesial 1",
-    "-> Bonus Spesial 2",
+    "Bonus Spesial 2",
     "Bonus Spesial 3",
     "Bonus Spesial 4",
     "Bonus Spesial 5",
@@ -154,7 +154,7 @@ function displayData(userData) {
 
     const tdColon = document.createElement("td");
     tdColon.innerText = ":";
-    tdColon.style.width = "40px";
+    tdColon.style.width = "5px";
 
     const tdValue = document.createElement("td");
     let value = userData[field] || "";
