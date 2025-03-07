@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   loginForm.addEventListener("submit", function(e) {
     e.preventDefault();
 
-    // Ambil nilai input
+    // Ambil nilai Kinput
     const kodeid = document.getElementById("kodeid").value.trim();
     const password = document.getElementById("password").value.trim();
 
