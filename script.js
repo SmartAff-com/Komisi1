@@ -45,13 +45,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Tombol navigasi pada halaman WD
   document.getElementById("btnWithdrawKomisi").addEventListener("click", function() {
-    window.location.href = "https://SAF-Smart.com/Withdraw";
+    window.location.href = "https://SmartSAF.com/Withdraw";
   });
   document.getElementById("btnWithdrawUD").addEventListener("click", function() {
-    window.location.href = "https://SAF-Smart.com/Toko";
+    window.location.href = "https://SmartSAF.com/Toko";
   });
   document.getElementById("homeBtn").addEventListener("click", function() {
-    window.location.href = "https://SAF-Smart.com/Dashboard";
+    window.location.href = "https://SmartSAF.com/Dashboard";
   });
 });
 
@@ -130,7 +130,7 @@ function displayData(userData) {
     "Komisi Generasi 10",
     "Jumlah Seluruh Komisi",
     "Bonus Spesial 1",
-    "Bonus Spesial 2",
+    "-> Bonus Spesial 2",
     "Bonus Spesial 3",
     "Bonus Spesial 4",
     "Bonus Spesial 5",
@@ -154,7 +154,7 @@ function displayData(userData) {
 
     const tdColon = document.createElement("td");
     tdColon.innerText = ":";
-    tdColon.style.width = "20px";
+    tdColon.style.width = "40px";
 
     const tdValue = document.createElement("td");
     let value = userData[field] || "";
