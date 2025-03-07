@@ -137,10 +137,8 @@ function displayData(userData) {
     "Jumlah Komisi+Bonus",
     "80% Komisi+Bonus Rp",
     "20% Komisi+Bonus UD (Uang Digital)",
-    "Riwayat Withdraw Rp",
     "Jumlah Withdraw Rp",
     "Saldo Komisi+Bonus Rp",
-    "Riwayat Withdraw UD",
     "Jumlah Withdraw UD",
     "Saldo Uang Digital",
     "Bonus Tambahan 1",
@@ -156,7 +154,7 @@ function displayData(userData) {
 
     const tdColon = document.createElement("td");
     tdColon.innerText = ":";
-    tdColon.style.width = "13px";
+    tdColon.style.width = "20px";
 
     const tdValue = document.createElement("td");
     let value = userData[field] || "";
