@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
 
-  // Tombol navigasi pada halaman WD
+  // Tombol navigasi pada. halaman WD
   document.getElementById("btnWithdrawKomisi").addEventListener("click", function() {
     window.location.href = "https://SAF-Smart.com/Withdraw";
   });
