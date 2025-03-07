@@ -156,7 +156,7 @@ function displayData(userData) {
 
     const tdColon = document.createElement("td");
     tdColon.innerText = ":";
-    tdColon.style.width = "10px";
+    tdColon.style.width = "13px";
 
     const tdValue = document.createElement("td");
     let value = userData[field] || "";
