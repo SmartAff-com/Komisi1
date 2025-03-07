@@ -118,12 +118,12 @@ input[type="password"] {
 .table-data {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .table-data th,
 .table-data td {
-  padding: 8px;
+  padding: 30px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
